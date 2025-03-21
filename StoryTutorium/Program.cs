@@ -16,7 +16,7 @@ namespace StoryTutorium
             locationRoom1 = true;
             while (gameRunning)
             {
-                player.Drehen();
+                player.Drehen(); // um drehen zu testen. Muss woanders untergebracht werden.
                 gameManager.Update();
             }
         }
