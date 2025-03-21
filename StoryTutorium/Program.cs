@@ -8,12 +8,15 @@ namespace StoryTutorium
         public static bool locationRoom2;
         public static bool gameRunning = true;
         public static StateMachine gameManager = new();
+        public static Player player = new();
+
 
         static void Main(string[] args)
         {
             locationRoom1 = true;
             while (gameRunning)
             {
+                player.Drehen();
                 gameManager.Update();
             }
         }
