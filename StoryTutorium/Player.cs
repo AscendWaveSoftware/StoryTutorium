@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,6 +10,9 @@ namespace StoryTutorium
     internal class Player
     {
         public Orientierung orientierung = Orientierung.Norden;
+        public bool Taschenuhr;
+        public bool Tagebuch;
+        public bool Kalenderseite;
 
         public enum Orientierung
         {
@@ -65,7 +69,26 @@ namespace StoryTutorium
             Console.WriteLine($"Der Spieler schaut Richtung {orientierung.ToString()}");
 
         }
-        // inventar aufrufen (welche der Teile hast du schon)
-        // bool für 3 Puzzleteile
+
+        public void Inventar()
+        {
+            int items = 0;
+            if (Taschenuhr)
+            {
+            Console.WriteLine("Spieler besitzt die Taschenuhr.");
+                items++;
+            }
+            if (Tagebuch)
+            {
+                Console.WriteLine("Spieler besitzt das Tagebuch.");
+                items++;
+            }
+            if (Kalenderseite)
+            {
+                Console.WriteLine("Spieler besitzt die Kalenderseite.");
+                items++;
+            }
+            Console.WriteLine($"Du besitzt {items} von 3 Gegenständen.");
+        }
     }
 }

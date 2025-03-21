@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoryTutorium")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48358a6e26e9bcf3b6e47046e771e3d243e0c674")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+943d58df42364f46f38a71f3fb1faec68a23eee3")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoryTutorium")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoryTutorium")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

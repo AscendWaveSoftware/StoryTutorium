@@ -17,6 +17,7 @@ namespace StoryTutorium
             while (gameRunning)
             {
                 player.Drehen(); // um drehen zu testen. Muss woanders untergebracht werden.
+                player.Inventar(); // um Inventar zu testen. Muss woanders untergebracht werden.
                 gameManager.Update();
             }
         }
